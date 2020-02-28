@@ -20,29 +20,238 @@ a{text-decoration:none;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	height:3rem;
-	width:3rem;	
+	height:45px;
+	width:45px;	
 	padding-left:1px;
 	background-color:rgba(170,170,170,0.6);
 	border-radius:0px 4px 4px 0px;
 }
-.setting_sticky>img{
-	height:2rem;
-	width:2rem;
+.setting_sticky img{
+	height:30px;
+	width:30px;
 }
-
+.contact_us_sticky{
+	float:left;
+	position:fixed;
+	display:flex;
+	padding:10px;
+	justify-content:space-around;
+	align-items:center;
+	bottom:0px;
+	right:20px;
+	height:50px;
+	width:150px;
+	background-color:rgb(100,150,255);
+	color:white;
+	font-size:0.8rem;
+	font-weight:600;
+	border-radius:10px 10px 0px 0px;
+}
+.contact_us_sticky img{
+	-webkit-invert:invert(1);
+	filter:invert(1);
+	height:25px;
+	width:30px;
+}
 .top_bar{
+	height:50px;
 	display:flex;
 	justify-content:center;
-	background-color:rgb(200,200,200);
+	background-color:rgb(220,220,220);
 }
-.top_bar .container{
-	width:85%;
+.top_bar .container.center{
+	width:84%;
+	height:100%;
 	display:flex;
+	justify-content:space-between;
 	align-items:center;
 }
 .phone_number{
 	font-size:0.9rem;
 	font-weight:600;
 	color:rgb(130,130,130);	
+}
+.phone_number a:visited{
+	color:inherit;
+}
+.top_bar .container.right{
+	width:55%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.shopping.links{
+	width:40%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-right:15px;
+	color:rgb(170,170,170);
+	font-size:0.8rem;
+	border-right:1px solid rgb(170,170,170);
+}
+.shopping.links a:visited{
+	color:inherit;
+}
+.currency{
+	width:12%;
+	height:100%;
+	display:flex;
+	padding-left:15px;
+	padding-right:15px;
+	align-items:center;
+	justify-content:space-around;
+	border-right:1px solid rgb(170,170,170);
+	font-size:0.8rem;
+}
+.currency .down_arrow{
+	transform:rotate(180deg);
+	padding-top:3px;
+}
+.shop_cart{
+	width:18%;
+	height:100%;
+	display:flex;
+	padding-left:15px;
+	padding-right:15px;
+	align-items:center;
+	justify-content:space-between;
+	border-right:1px solid rgb(170,170,170);
+	font-size:0.8rem;
+}
+.shop_cart img{
+	height:25px;
+	width:25px;
+}
+.shop_cart .text{
+	width:60%;
+	display:flex;
+	justify-content:space-around;
+}
+a.shop_cart:visited{
+	color:inherit;
+}
+.search{
+	width:30%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+}
+.search input{
+	height:100%;
+	width:auto;
+	border:0px;
+	padding:10px;
+	font-size:0.8rem;
+	background-color:transparent;
+}
+.search.button{
+	height:100%;
+	width:30px;
+	padding:0px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:none;
+	transition:none;
+	background-color:transparent;
+}
+button:focus{
+	border:none;
+	outline:none;
+}
+.search_image{
+	height:30px;
+	width:30px;
+}
+/* nav bar settings */
+nav{
+	height:100px;
+	display:flex;
+	justify-content:center;
+}
+nav .container.center{
+	width:84%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+nav .links{
+	width:55%;
+	height:50%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	font-size:1rem;
+}
+nav .links 	a{
+	padding:12px;
+	display:flex;
+	align-items:center;
+	height:100%;
+	transition:0.2s;
+	border:2px solid white;
+}
+nav .links a.homepage{
+	border:2px solid black;
+}
+nav .links a:hover{
+	border:2px solid black;
+}
+.products_tab{
+	position:relative;
+}
+.hot_deals_box{
+	font-size:0.6rem;
+	position:absolute;
+	top:-8px;
+	right:-2px;
+	padding:2px;
+	color:white;
+	background-color:red;
+}
+/* overview settings */
+.overview{
+	background-image:url('https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide2_image.jpg?v=5378867642179737534');
+	background-size:auto;
+	padding:20px;
+	height:600px
+}
+.overview .background{
+	height:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.left_arrow{
+	transform:rotate(270deg);
+}
+.background .left_arrow{
+	font-size:5rem;
+	color:white;
+}
+.right_arrow{
+	transform:rotate(90deg);
+}
+.background .right_arrow{
+	font-size:5rem;
+	color:white;
+}
+.overview .background .text{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+h2{
+	font-size:4rem;
+	color:white;
+	letter-spacing:0.9rem;
+}
+.overview .panel.container{
+	
 }

@@ -1,0 +1,48 @@
+*{
+box-sizing: border-box;
+font-family:'Segoe UI', Helvetica, Verdana; 
+}
+body{          /* removes default padding and margin around the ouside of the entire webpage and makes rem 10px */
+	font-size:62.5%;
+	margin:0;
+	padding:0;
+}
+@-ms-viewport{
+  width: device-width;
+}
+a{text-decoration:none;
+}
+/* header settings */
+.setting_sticky{
+	float:left;
+	position:fixed;
+	bottom:580px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:3rem;
+	width:3rem;	
+	padding-left:1px;
+	background-color:rgba(170,170,170,0.6);
+	border-radius:0px 4px 4px 0px;
+}
+.setting_sticky>img{
+	height:2rem;
+	width:2rem;
+}
+
+.top_bar{
+	display:flex;
+	justify-content:center;
+	background-color:rgb(200,200,200);
+}
+.top_bar .container{
+	width:85%;
+	display:flex;
+	align-items:center;
+}
+.phone_number{
+	font-size:0.9rem;
+	font-weight:600;
+	color:rgb(130,130,130);	
+}

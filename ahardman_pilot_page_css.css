@@ -249,7 +249,7 @@ nav .links a:hover{
 	padding:5px 2px 3px 2px;
 	font-size:0.6rem;
 	font-weight:400;
-	letter-spacing:-0.02;
+	letter-spacing:-0.02px;
 	position:absolute;
 	top:-8px;
 	right:-2px;
@@ -391,7 +391,7 @@ h2{
 	font-size:2rem;
 	font-weight:600;
 	color:white;
-	opacity:1,
+	opacity:1;
 	transition:0.3s;
 }
 .bottom_container .right_arrow:hover{
@@ -474,7 +474,7 @@ h2{
 	width:50px;
 	font-size:0.875rem;
 	font-weight:600;
-	letter-spacing:0.01;
+	letter-spacing:0.01px;
 	background-color:rgb(220,0,0);
 }
 .round_sticker.new{
@@ -483,6 +483,6 @@ h2{
 	width:50px;
 	font-size:0.55rem;
 	font-weight:600;
-	letter-spacing:0.01;
+	letter-spacing:0.01px;
 	background-color:rgb(80,160,205);
 }

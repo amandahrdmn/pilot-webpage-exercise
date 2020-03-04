@@ -413,7 +413,8 @@ h2{
 	font-weight:300;
 	white-space:nowrap;
 }
-/* products section */
+/* commented out incomplete section
+/* products section
 .products{
 	margin-bottom:60px;
 }
@@ -486,3 +487,4 @@ h2{
 	letter-spacing:0.01px;
 	background-color:rgb(80,160,205);
 }
+*/
